@@ -1,0 +1,240 @@
+
+.randing_1 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 0 0 0;
+    background-color: #2b2e4a;
+}
+
+.randing_2 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 0 0 0;
+    background-color: #dedede;
+}
+
+.randing_3 {
+    position: relative;
+    margin: 0 auto 0 auto;
+    max-width: 800px;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.randing_3 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0;
+    max-width: 800px;
+    max-height: 454.5px;
+}
+
+.randing_4 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 0 0 0;
+    background-color: #ffffff;
+}
+
+.randing_5 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 0 0 0;
+    background-color: #903749;
+}
+
+.randing_6 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 0 0 0;
+    background-color: #1f1f22;
+}
+
+.randing_7 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #dedede;
+}
+
+.randing_7 h2 {
+    font-size: 180%;
+    text-align: center;
+    margin: 0;
+    padding: 30px 0 0 0;
+    background-color: #dedede;
+}
+
+.randing_7 label {
+    font-size: 18px;
+    margin: 0 0 0 9.5%;
+    line-height: 33px;
+    padding: 0 0 0 0;
+}
+
+.randing_7 input {
+    margin: 0 0 0 9.5%;
+    width: 80%;
+    height: 30px;
+}
+
+.randing_7 select {
+    margin: 0 0 0 9.5%;
+    width: 81%;
+    height: 37px
+}
+
+.randing_7 option {
+    font-size: 18px;
+}
+
+.randing_7 textarea {
+    margin: 0 0 0 9.5%;
+    width: 80%;
+    height: 50px;
+}
+
+#agree_checkbox {
+    width: 25px;
+    margin: 10px 0 0 0;
+}
+
+#submit {
+    font-size: 25px;
+    padding: 0 0 0 0;
+    margin: 3% 0 30px 9.5%;
+    width: 81%;
+    height: 50px;
+    color: white;
+    border-style: none;
+    background-color: #383838;
+}
+
+.randing_8 {
+    display: block;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 0 0 0;
+    background-color: #1f1f22;
+    color: #dedede;
+}
+
+.randing_8 h2 {
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    font-size: 15px;
+}
+
+.randing_8 p {
+    text-align: center;
+}
+
+#if {
+    display: none;
+    width: 0px;
+    height: 0px;
+    border: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.COPY {
+    font-size: 12px;
+}
+
+
+/* for tablet, mobile */
+@media screen and (max-width: 820px) {
+
+    .randing_1 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .randing_2 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 20px 0 0 0;
+    }
+
+    .randing_4 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .randing_5 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .randing_6 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .randing_7 h2 {
+        font-size: 180%;
+        text-align: center;
+        margin: 0;
+        padding: 30px 0 0 0;
+        background-color: #dedede;
+    }
+
+    .randing_7 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        background-color: #dedede;
+        padding-bottom: 20px;
+    }
+
+    .randing_8 h2 {
+        font-size: 130%;
+        text-align: center;
+        margin: 0 0 0 0;
+        padding: 30px 0 0 0;
+        background-color: #1f1f22;
+    }
+
+    .randing_8 {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 0 0 0 0;
+        background-color: #1f1f22;
+        padding-bottom: 20px;
+    }
+
+    #if {
+        display: none;
+        width: 0px;
+        height: 0px;
+        border: 0px;
+        margin: 0;
+        padding: 0;
+    }
+}
